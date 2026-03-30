@@ -1,0 +1,15 @@
+# Qwen3-TTS Streaming Server Dependencies
+flask>=3.0,<4.0
+numpy>=1.24.0
+soundfile>=0.12.1
+safetensors>=0.4.0
+transformers>=4.45,<5
+requests>=2.31.0
+librosa>=0.10.0
+
+# Neuron SDK (pre-installed on trn1/inf2 instances)
+# torch-neuronx
+# neuronx-distributed
+
+# MP3 encoding support
+pydub>=0.25.1

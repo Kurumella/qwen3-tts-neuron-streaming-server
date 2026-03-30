@@ -1,0 +1,16 @@
+# Normalize line endings
+* text=auto
+
+# Shell scripts must use LF
+*.sh text eol=lf
+
+# Python files must use LF
+*.py text eol=lf
+
+# Dockerfile must use LF
+Dockerfile text eol=lf
+
+# Mark binary files
+*.mp3 binary
+*.wav binary
+*.pcm binary

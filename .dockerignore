@@ -1,0 +1,29 @@
+# Neuron traces (baked in during Phase 2, not Phase 1)
+neuron_traces/
+
+# Tests (not needed in Docker image)
+tests/
+
+# Test outputs
+test_outputs/
+test_report.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Git
+.git/
+.gitignore
+
+# Build artifacts (staging dirs are created/removed by build.sh)
+# .build_model/ is intentionally NOT ignored — it's needed during docker build
+
+# Documentation
+LICENSE
+README.md
+
+# OS files
+.DS_Store
+*.swp
+*.swo
